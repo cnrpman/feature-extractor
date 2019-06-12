@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2,3 python custom/run_extractor.py --max_seq_length 256 --batch_size 8 --input_file /home/junyi/data/wikipedia/tacred_train_dbpedia_abstract.txt --output_file ./output.pkl --bert_model bert-base-uncased --do_lower_case
